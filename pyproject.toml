@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "my-python-microservice"
+version = "0.1.0"
+description = "Example project"
+readme = "README.md"
+requires-python = ">=3.11"
+#license = { file = "LICENSE" }
+authors = [{ name = "shyam Dev", email = "shyamrao.b@reactore.com" }]
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
