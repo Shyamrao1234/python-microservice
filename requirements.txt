@@ -1,0 +1,7 @@
+confluent-kafka==2.14.0
+pydantic
+pydantic-settings
+python-dotenv
+pytest
+pymongo>=4.12,<5.0
+motor==3.7
